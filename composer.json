@@ -1,0 +1,25 @@
+{
+    "name": "noisette/fastsuggest",
+    "type": "magento2-component",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Pascal Noisette",
+            "email": "netpascal0123@aol.com"
+        }
+    ],
+    "description": "Suggest based on ElasticSearch direct queries",
+    "require": {
+        "smile/module-elasticsuite-core": ">=2.8.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Noisette\\FastSuggest\\": ""
+        }
+    },
+   "minimum-stability": "stable",
+   "prefer-stable": true
+}
